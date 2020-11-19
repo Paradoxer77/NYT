@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-  font-family: nyt-franklin;
+  font-family: nyt-cheltenham;
 }
 
 nav {
@@ -12,11 +12,17 @@ nav {
   grid-template-columns: 1fr 3fr 1fr;
   justify-items: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
 }
 
-.bars {
-  display: inline-block;
-  margin-right: 15px;
+.left-items {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav-buttons {
@@ -41,7 +47,6 @@ nav {
 .title {
   display: inline-block;
   font-size: 14px;
-  margin-left: 25px;
   font-weight: 700;
   color: #000;
   text-decoration: none;
@@ -52,8 +57,9 @@ nav {
 }
 
 .right-content {
-  justify-self: end;
-  margin-right: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .login-buttons {
@@ -63,6 +69,5 @@ nav {
   font-size: 12px;
   font-weight: 700px;
   color: white;
-  height: 35px;
-  margin-left: 5px;
+  padding: 7px;
 }
