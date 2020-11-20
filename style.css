@@ -105,3 +105,58 @@ header {
   color: rgb(163, 163, 163);
   font-size: 15px;
 }
+
+
+.content {
+  margin-top: 30px;
+  width: 40vw;
+  margin-bottom: 100px;
+  min-width: 400px;
+}
+
+.writer {
+  font-size: 15px;
+  font-weight: 1000;
+  color: rgb(34, 34, 34);
+}
+
+.writer-u {
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.social-icon {
+  background-color: rgb(245, 244, 244);
+  border-radius: 50%;
+}
+
+.news {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(56, 56, 56);
+}
+
+.focus {
+  margin-top: 20px;
+  font-size: 22px;
+  color: rgba(14, 11, 11, 0.816);
+  font-weight: 800;
+}
+
+.description {
+  color: rgb(50, 104, 145);
+}
+
+.stanford {
+  margin-top: 40px;
+}
