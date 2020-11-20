@@ -92,15 +92,10 @@ header {
   width: 100%;
 }
 
-.text-container {
-  width: 75%;
-  min-width: 400px;
-}
-
 .caption {
-  width: 75%;
+  width: 75vw;
   color: rgb(84, 83, 83);
-  font-size: 16px;
+  font-size: 1em;
   font: georgia;
   margin-top: 10px;
   min-width: 400px;
