@@ -71,3 +71,42 @@ nav {
   color: white;
   padding: 7px;
 }
+
+
+main {
+  margin-top: 60px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto;
+}
+
+header {
+  width: 40%;
+  max-width: 100%;
+  font-size: 1em;
+  min-width: 400px;
+}
+
+#scientist {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.text-container {
+  width: 75%;
+  min-width: 400px;
+}
+
+.caption {
+  width: 75%;
+  color: rgb(84, 83, 83);
+  font-size: 16px;
+  font: georgia;
+  margin-top: 10px;
+  min-width: 400px;
+}
+
+.rick {
+  color: rgb(163, 163, 163);
+  font-size: 15px;
+}
