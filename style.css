@@ -110,7 +110,7 @@ header {
 .content {
   margin-top: 30px;
   width: 40vw;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   min-width: 400px;
 }
 
@@ -159,4 +159,12 @@ header {
 
 .stanford {
   margin-top: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.telescope {
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 20px;
 }
